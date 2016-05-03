@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <!-- 'name' to be xhtml compliant http://ogp.me/ -->
+  <meta name="og:url" content="http://purl.mro.name/wpad" />
+  <meta name="og:image" content="img/ads-off-256x256.png" />
+  <!-- http://microformats.org/wiki/existing-rel-values#formats -->
+  <link rel="canonical" href="http://purl.mro.name/wpad" />
+  <link rel="bookmark" href="http://purl.mro.name/wpad" />
+  <link rel="icon" href="img/ads-off-256x256.png?v=2" type="image/png" />
+
+  <title>Ads</title>
+  <style type="text/css">
+/*<![CDATA[*/
+  html {
+    background-color: #DDD;
+  }
+  .iphone5 {
+    width: 240px;
+    background-color: #444;
+    margin: 1ex;
+    padding: 2px;
+    box-shadow: 10px 10px 5px #aaa;
+  }
+  #buttons {
+    font-size: 18pt;
+    font-family: sans-serif;
+  }
+  #buttons img {
+    vertical-align: middle;
+    height: 32px;
+  }
+  .ads-on * {
+    color: #008754;
+  }
+  .ads-off * {
+    color: #E30613;
+  }
+  @media screen and (max-width: 450px) {
+    #settings-osx {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 450px) {
+    #settings-osx img {
+      width: 90%;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    #settings-osx img {
+      width: auto;
+    }
+  }
+  /*]]>*/
+  </style>
+</head>
+
+<body>
+  <h1>A Filtering Proxy Auto Configuration (PAC)</h1>
+
+  <p>Block e.g. ads by sending requests to blacklisted hosts to a <a href=
+  "https://github.com/mro/ablopac/tree/master/blackholeproxy">proxy that drops every request</a>.
+  All other requests go un-proxied directly to the desired host.</p>
+
+  <ul>
+    <li>The <a href="http://purl.mro.name/wpad.dat"><b style="font-size: 18pt;">PAC URL to
+    use</b></a><sup><a href="#fn-1">1)</a></sup>,</li>
+
+    <li>Turn ads
+
+      <ul id="buttons">
+        <li class="ads-on"><a href="http://ads/on"><img alt="on" src="img/ads-on.svg" />
+        <b>on</b></a></li>
+
+        <li class="ads-off"><a href="http://ads/off"><img alt="off" src="img/ads-off.svg" />
+        <b>off</b></a></li>
+      </ul>
+    </li>
+
+    <li>Inspired by
+
+      <ul>
+        <li><a href="https://github.com/sononum/abloprox/">AdBlock HTTP Proxy Server</a></li>
+
+        <li><a href="http://www.schooner.com/~loverso/no-ads/"><em>Bust Banner Ads with Proxy Auto
+        Configuration</em></a></li>
+      </ul>
+    </li>
+
+    <li><a href="https://en.wikipedia.org/wiki/Proxy_auto-config">Wikipedia about <em>Proxy Auto
+    Configuration</em></a></li>
+
+    <li>a bit outdated: <a href="http://blog.mro.name/2014/06/ad-blocking-proxy-abloprox/">blog
+    post <em>Ad BLOcking PROXy = abloprox</em></a></li>
+  </ul>
+
+  <p>Powered by <a href="https://github.com/mro/ablopac">https://github.com/mro/ablopac</a></p>
+  <hr />
+
+  <div id="settings-ios">
+    <h2>iOS</h2>
+
+    <h3>WIFI</h3>
+
+    <p>Has to be set anew for each WIFI network you join the 1<sup>st</sup> time:</p>
+
+    <p><img class="iphone5" title="Step 1" src="img/IMG_8576-fs8.png" alt="Settings" /> <img class=
+    "iphone5" title="Step 2" src="img/IMG_8577-fs8.png" alt="Settings -&gt; WIFI" /> <img class=
+    "iphone5" title="Step 3" src="img/IMG_8579-fs8.png" alt=
+    "Settings -&gt; WIFI -&gt; my wifi" /></p>
+
+    <h3>VPN</h3>
+
+    <p>Settings -&gt; General -&gt; VPN -&gt; (VPN #1) -&gt; Proxy</p>
+  </div>
+
+  <div id="settings-osx">
+    <h2>OSX</h2>
+
+    <p><img class="osx" title="Step 1" src="img/IMG_osx-fs8.png" alt="Settings OSX" /></p>
+    <hr />
+
+    <ul style="list-style:none;padding:0">
+      <li><sup><a id="fn-1" name="fn-1">1)</a></sup> Android won't allow <a href=
+      "https://code.google.com/p/android/issues/detail?id=42696#c20">using a PAC at all</a> until
+      version <a href="https://en.wikipedia.org/wiki/Android_Lollipop">5.0+ (lollipop)</a></li>
+    </ul>
+  </div>
+  <hr />
+
+  <p id="footer"><a href="impressum/">Impressum</a></p>
+
+  <p><b><a href="http://validator.w3.org/check/referer"><img alt="Valid XHTML 1.0!" src=
+  "https://www.w3.org/Icons/valid-xhtml10-blue-v.svg" style=
+  "border:0;width:88px;height:31px" /></a> <a href=
+  "http://jigsaw.w3.org/css-validator/check/referer"><img alt="Valid CSS1!" src=
+  "https://www.w3.org/Icons/valid-css-blue-v.svg" style=
+  "border:0;width:88px;height:31px" /></a></b></p>
+</body>
+</html>

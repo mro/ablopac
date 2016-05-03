@@ -1,0 +1,12 @@
+
+# https://de.wikipedia.org/wiki/Proxy_Auto-Config#Die_PAC-Datei
+AddType application/x-ns-proxy-autoconfig dat
+AddOutputFilterByType DEFLATE text/html application/x-ns-proxy-autoconfig
+
+RewriteEngine on
+RewriteRule ^prxy.pac$ wpad.dat
+
+# CORS
+# https://github.com/monperrus/jskomment
+# http://enable-cors.org/server_apache.html
+# Header set Access-Control-Allow-Origin "*"
