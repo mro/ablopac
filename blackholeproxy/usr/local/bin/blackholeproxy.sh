@@ -8,7 +8,7 @@
 #      http://www.schooner.com/~loverso/no-ads/
 #      loverso@schooner.com
 #
-# Copyright 2015-2016, Marcus Rohrmoser. http://mro.name/me All Rights Reserved.
+# Copyright 2015-2016, Marcus Rohrmoser. http://mro.name/~me All Rights Reserved.
 # Copyright 1996-2003, John LoVerso.  All Rights Reserved.
 #
 #      Permission is given to distribute this file, as long as this
